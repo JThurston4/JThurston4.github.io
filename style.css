@@ -4,9 +4,46 @@
 }
 
 .bg{
-  background-image: url(assets/keyboard_laptop_macro_73432_1920x1080.jpg);
-  background-size: cover;
+  background-image: url("assets/keyboard_laptop_macro_73432_1920x1080.jpg");
+  height: 70vh;
+  background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  color: rgb(237, 237, 237);
+  text-shadow: 1px 1px 3px black;
+}
+.text-center{
+  justify-content: center;
+}
 
-  
+.about-bg{
+  background-color: rgb(29, 29, 29);
+}
+
+@media (min-width: 992px){
+.bg {
+    height: 100vh;
+    min-height: 650px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .title{
+      font-size: 5rem;
+  color: rgb(191, 167, 205);  
+
+  }
 }
