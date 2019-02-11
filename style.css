@@ -1,0 +1,12 @@
+.navCollapse{
+  display:flex;
+  justify-content: flex-end;
+}
+
+.bg{
+  background-image: url(assets/keyboard_laptop_macro_73432_1920x1080.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  
+}
