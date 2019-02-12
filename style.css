@@ -30,6 +30,11 @@
   justify-content: center;
 }
 
+.headshot{
+  height: 25vh
+  object-fit: cover;
+}
+
 .about-bg{
   background-color: rgb(29, 29, 29);
 }
