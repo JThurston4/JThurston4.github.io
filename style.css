@@ -11,6 +11,7 @@
   background-size: cover;
   position: relative;
 }
+
 .fixed-top {
     position: fixed;
     top: 0;
@@ -18,6 +19,7 @@
     left: 0;
     z-index: 1030;
 }
+
 .title{
   display: flex;
   align-items: center;
@@ -26,17 +28,40 @@
   color: rgb(237, 237, 237);
   text-shadow: 1px 1px 3px black;
 }
+
 .text-center{
   justify-content: center;
 }
 
 .headshot{
-  height: 25vh
+  width: 250px;
+  height: 250px;
   object-fit: cover;
+  border-radius: 10%;
+}
+
+.h-centered{
+  display: flex;
+  justify-content: center;
 }
 
 .about-bg{
   background-color: rgb(29, 29, 29);
+}
+
+.headline{
+  padding-bottom: 0;
+  margin-bottom: 0;
+  height: 5vh;
+}
+
+.about-row{
+  min-height: 4vh;
+  color: rgb(219, 219, 219);
+}
+
+.about-desc{
+  height: 60vh
 }
 
 @media (min-width: 992px){
@@ -50,5 +75,11 @@
       font-size: 5rem;
   color: rgb(191, 167, 205);  
 
+  }
+  .headshot {
+    height: 25vw;
+  }
+
+  .about-row{
   }
 }
