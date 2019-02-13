@@ -3,8 +3,12 @@
   justify-content: flex-end;
 }
 
+.spacing{
+  height: 60vh;
+}
+
 .bg{
-  background-image: url("assets/keyboard_laptop_macro_73432_1920x1080.jpg");
+  background-image: url("https://wallpaperstream.com/wallpapers/full/minimal-hd/Artistic-Tree-Cat-Bird-Minimalism-HD-Wallpaper.jpg");
   height: 70vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -24,7 +28,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 2.5rem;
+  font-size: 1.8rem;
   color: rgb(237, 237, 237);
   text-shadow: 1px 1px 3px black;
 }
@@ -72,12 +76,16 @@
     padding-bottom: 0;
   }
   .title{
-      font-size: 5rem;
+  font-size: 5rem;
   color: rgb(191, 167, 205);  
 
   }
   .headshot {
     height: 25vw;
+  }
+
+  .spacing{
+    height: 82%;
   }
 
   .about-row{
