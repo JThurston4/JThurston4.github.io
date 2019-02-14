@@ -40,7 +40,6 @@
 .headshot{
   width: 250px;
   height: 250px;
-  object-fit: cover;
   border-radius: 10%;
 }
 
@@ -65,7 +64,7 @@
 }
 
 .about-desc{
-  height: 60vh
+  min-height: 60vh
 }
 
 @media (min-width: 992px){
@@ -81,15 +80,19 @@
 
   }
   .headshot {
-    height: 25vw;
+    height: auto;
+    width: 27vw;
+    align-self: center;
+  }
+
+  .profile-pic{
+    justify-content: center;
   }
 
   .spacing{
     height: 82%;
   }
 
-  .about-row{
-  }
 
   @media (min-width: 1200px) {
     .spacing{
