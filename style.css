@@ -38,7 +38,7 @@
 }
 
 .headshot{
-  width: 250px;
+  /* width: 250px; */
   height: 250px;
   border-radius: 10%;
 }
@@ -64,7 +64,17 @@
 }
 
 .about-desc{
-  min-height: 60vh
+  min-height: 60vh;
+  margin-top: 1rem;
+}
+
+.profile-pic{
+  justify-content: center;
+}
+
+.about-text {
+  text-align: center;
+  color: rgb(216, 216, 216);
 }
 
 @media (min-width: 992px){
@@ -76,7 +86,7 @@
   }
   .title{
   font-size: 5rem;
-  /* color: rgb(191, 167, 205);   */
+  /* color: rgb(191, 167, 205);   */  
 
   }
   .headshot {
@@ -93,6 +103,15 @@
     height: 82%;
   }
 
+  .about-desc{
+    margin-top: .5rem;
+  }
+
+  .about-text{
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+  }
 
   @media (min-width: 1200px) {
     .spacing{
