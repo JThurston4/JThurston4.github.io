@@ -90,4 +90,16 @@
 
   .about-row{
   }
+
+  @media (min-width: 1200px) {
+    .spacing{
+      height: 40vh;
+    }
+    .title {
+      justify-content: left;
+    }
+    .text-center{
+      justify-content: left;
+    }
+  }
 }
